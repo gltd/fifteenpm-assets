@@ -17,9 +17,10 @@ download_assets:
 
 	echo "Downloading current assets"
 	aws --profile gltd s3 cp s3://gltd/git/fifteenpm-assets/assets/current.zip /tmp/current.zip
+	echo "Syncing with local assets, you'll be able to decide how to preserve with changes/updates..."
 	unzip /tmp/current.zip
-	mv /tmp/assets/ ./assets/
-	rm -rf /tmp/current.zip /tmp/assets/
+	rm -rf /tmp/current.zip
+	echo "Done..."
 
 remove_current_remote_assets:
 	
