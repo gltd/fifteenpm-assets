@@ -1,6 +1,7 @@
-assets/
-performance/
-video/
+assets/brand/
+assets/performance/
+assets/releases/
+assets/video/
 .vscode/
 .DS_Store
 *.pyc
