@@ -1,0 +1,7 @@
+assets/
+performance/
+video/
+.vscode/
+.DS_Store
+*.pyc
+config/instagram-credentials.json
