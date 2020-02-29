@@ -71,10 +71,6 @@ def prepare_instagram_video(video_path, thumnail_path=None, size=[720, 720]):
     return {
         "size": (size[0], size[1]),
         "duration": round(duration, 1),
-        "thumbnail_data": open(tmp_thumbnail_path, "rb"),
-        "video_data": open(tmp_video_path, "rb"),
+        "thumbnail": tmp_thumbnail_path,
+        "video": tmp_video_path
     }
-
-
-def load_video(path, size):
-    pass

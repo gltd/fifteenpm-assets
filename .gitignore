@@ -5,4 +5,6 @@ assets/video/
 .vscode/
 .DS_Store
 *.pyc
+.env
 config/instagram-credentials.json
+node_modules/
